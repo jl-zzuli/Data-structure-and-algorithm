@@ -2,3 +2,17 @@
   1.同一性
   2.有穷性
   3.有序性
+
+线性表的抽象数据类型定义：
+
+ADT List{
+  数据对象：
+  数据关系：
+  基本操作：
+    InitList(List *L)
+      初始化线性表
+    DestroyList(List *L)
+      销毁已存在的线性表
+    ClearList(List *L)
+      重置线性表
+}
